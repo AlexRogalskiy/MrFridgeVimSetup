@@ -33,10 +33,9 @@ to look like this:
 
 
 ## Link with vimRC file
-This repository includes a vimrc file. You can create a symbolic link to this file so your own local .vimrc file points to the one in this repository and is always updated.
-    cd <this repository>
+This repository includes a vimrc file. You can create a symbolic link to this file so your own local .vimrc file points to the one in this repository and is always updated. (It is important to use full paths for the ln command. It will not work with relative paths)
     mv ~/.vimrc old_vimrc
-    ln -s vimrc ~/.vimrc 
+    ln -s <absolute path to this repo>/vimrc ~/.vimrc 
 
 
 ## Install Add-Ons
