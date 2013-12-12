@@ -1,0 +1,191 @@
+# MacVim Setup
+
+
+## Install Vim
+
+### Homebrew 
+    install homebrew from http://brew.sh/
+
+        brew doctor
+    and do what it recommends (like installing the xcode command line tools)
+
+    now you can install anything you need:
+
+        brew install macvim
+        brew install ctags
+        
+    and if you have not yet:
+        
+        brew install git
+        brew install hg
+
+### Set paths
+    edit /etc/paths to always first search for brew installations:
+        
+        sudo nano /etc/paths
+
+    to look like this:
+        /usr/local/bin
+        /usr/bin
+        /bin
+        /usr/sbin
+        /sbin
+
+
+
+
+## Install Add-Ons
+
+### Pathogen
+    https://github.com/tpope/vim-pathogen
+
+    With Pathogen any plugins you wish to install can be extracted to a subdirectory under ~/.vim/bundle, and they will be added to the 'runtimepath'
+
+#### Install
+        mkdir -p ~/.vim/autoload ~/.vim/bundle; \
+        curl -Sso ~/.vim/autoload/pathogen.vim \
+        https://raw.github.com/tpope/vim-pathogen/master/autoload/pathogen.vim
+
+
+
+
+
+
+
+### Vim-Sensible
+    https://github.com/tpope/vim-sensible
+
+    A universal set of defaults that (hopefully) everyone can agree on.
+
+#### Install
+        cd ~/.vim/bundle
+        git clone https://github.com/tpope/vim-sensible.git
+
+
+
+
+
+
+
+### Solarized
+    http://ethanschoonover.com/solarized/vim-colors-solarized
+
+    Solarized colorscheme for vim
+
+#### Install
+        cd ~/.vim/bundle
+        git clone git://github.com/altercation/vim-colors-solarized.git
+
+#### VimRC
+        syntax enable
+        set background=dark
+        colorscheme solarized
+
+
+
+
+
+
+
+### EasyTags
+    https://github.com/xolox/vim-easytags
+
+    Automated tag generation and syntax highlighting
+
+    Requires vim-misc:
+    https://github.com/xolox/vim-misc
+
+#### Install
+        cd ~/.vim/bundle
+        git clone https://github.com/xolox/vim-misc.git
+        git clone https://github.com/xolox/vim-easytags.git
+
+
+
+
+
+
+
+### File Browser
+    https://github.com/scrooloose/nerdtree
+
+The NERD tree allows you to explore your filesystem and to open files and directories. It presents the filesystem to you in the form of a tree which you manipulate with the keyboard and/or mouse. 
+
+    https://github.com/jistr/vim-nerdtree-tabs
+
+This plugin aims at making NERDTree feel like a true panel, independent of tabs.
+
+#### Install
+    cd ~/.vim/bundle
+    git clone https://github.com/scrooloose/nerdtree.git
+    git clone https://github.com/jistr/vim-nerdtree-tabs.git
+
+
+
+
+
+
+
+
+### Buffers as Tabs
+    https://github.com/techlivezheng/vim-plugin-minibufexpl
+
+open buffers as tabs along the top or bottom of your screen
+
+#### Install
+    cd ~/.vim/bundle
+    git clone https://github.com/techlivezheng/vim-plugin-minibufexpl.git
+
+
+
+
+
+
+
+### File Opening Ctrl-P
+    https://github.com/kien/ctrlp.vim
+
+    Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
+
+#### Install
+        cd ~/.vim/bundle
+        git clone https://github.com/kien/ctrlp.vim.git
+
+#### VimRC
+        let g:ctrlp_map = '<c-p>'
+        let g:ctrlp_cmd = 'CtrlP'
+
+
+
+
+
+
+
+
+
+## Modifiy VimRC file
+
+    "Show line numbers
+    set number
+
+    "Colorize szntax and change font
+    syntax enable
+    set guifont=Source_Code_Pro:h13
+
+    "Highlight search
+    set hlsearch
+    set ignorecase
+
+    "Set up tabbing
+    set expandtab
+    set shiftwidth=4
+    set softtabstop=4
+    set autoindent
+    set smartindent
+
+    "Enable autocomplete with ctrl-space
+    inoremap <C-Space> <C-n>
+
+
+
+
