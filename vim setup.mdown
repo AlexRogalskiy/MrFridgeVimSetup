@@ -32,6 +32,11 @@ to look like this:
     /sbin
 
 
+## Link with vimRC file
+This repository includes a vimrc file. You can create a symbolic link to this file so your own local .vimrc file points to the one in this repository and is always updated.
+    cd <this repository>
+    mv ~/.vimrc old_vimrc
+    ln -s vimrc ~/.vimrc 
 
 
 ## Install Add-Ons
@@ -109,16 +114,16 @@ https://github.com/xolox/vim-misc
 ### File Browser
 https://github.com/scrooloose/nerdtree
 
-The NERD tree allows you to explore your filesystem and to open files and directories. It presents the filesystem to you in the form of a tree which you manipulate with the keyboard and/or mouse. 
+The NERD tree allows you to explore your filesystem and to open files and directories. It presents the filesystem to you in the form of a tree which you manipulate with the keyboard and/or mouse. Also allows bookmarking folders. 
 
 https://github.com/jistr/vim-nerdtree-tabs
 
 This plugin aims at making NERDTree feel like a true panel, independent of tabs.
 
 #### Install
-cd ~/.vim/bundle
-git clone https://github.com/scrooloose/nerdtree.git
-git clone https://github.com/jistr/vim-nerdtree-tabs.git
+    cd ~/.vim/bundle
+    git clone https://github.com/scrooloose/nerdtree.git
+    git clone https://github.com/jistr/vim-nerdtree-tabs.git
 
 
 
@@ -130,11 +135,11 @@ git clone https://github.com/jistr/vim-nerdtree-tabs.git
 ### Buffers as Tabs
 https://github.com/techlivezheng/vim-plugin-minibufexpl
 
-open buffers as tabs along the top or bottom of your screen
+Open buffers as tabs along the top or bottom of your screen. (This is prefered to using the built in tabs and uses less space)
 
 #### Install
-cd ~/.vim/bundle
-git clone https://github.com/techlivezheng/vim-plugin-minibufexpl.git
+    cd ~/.vim/bundle
+    git clone https://github.com/techlivezheng/vim-plugin-minibufexpl.git
 
 
 
@@ -159,32 +164,6 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 
 
-
-
-
-
-## Modifiy VimRC file
-
-    "Show line numbers
-    set number
-
-    "Colorize szntax and change font
-    syntax enable
-    set guifont=Source_Code_Pro:h13
-
-    "Highlight search
-    set hlsearch
-    set ignorecase
-
-    "Set up tabbing
-    set expandtab
-    set shiftwidth=4
-    set softtabstop=4
-    set autoindent
-    set smartindent
-
-    "Enable autocomplete with ctrl-space
-    inoremap <C-Space> <C-n>
 
 
 
