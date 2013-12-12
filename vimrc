@@ -36,4 +36,8 @@ inoremap <C-Space> <C-n>
 let g:ctrlp_map = '<c-p>'
 let g:ctrlp_cmd = 'CtrlP'
 
+"NerdTree setup
+"always show bookmarks
+let NERDTreeShowBookmarks=1
+
 
