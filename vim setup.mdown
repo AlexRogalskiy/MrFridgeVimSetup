@@ -89,8 +89,6 @@ Solarized colorscheme for vim
 
 
 
-
-
 ### EasyTags
 https://github.com/xolox/vim-easytags
 
@@ -103,8 +101,6 @@ https://github.com/xolox/vim-misc
     cd ~/.vim/bundle
     git clone https://github.com/xolox/vim-misc.git
     git clone https://github.com/xolox/vim-easytags.git
-
-
 
 
 
@@ -129,8 +125,6 @@ This plugin aims at making NERDTree feel like a true panel, independent of tabs.
 
 
 
-
-
 ### Buffers as Tabs
 https://github.com/techlivezheng/vim-plugin-minibufexpl
 
@@ -139,7 +133,6 @@ Open buffers as tabs along the top or bottom of your screen. (This is prefered t
 #### Install
     cd ~/.vim/bundle
     git clone https://github.com/techlivezheng/vim-plugin-minibufexpl.git
-
 
 
 
@@ -158,6 +151,37 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 #### VimRC
     let g:ctrlp_map = '<c-p>'
     let g:ctrlp_cmd = 'CtrlP'
+
+
+
+
+
+
+
+###  syntastic
+https://github.com/scrooloose/syntastic
+
+Syntax checking with advanced error displaying
+
+####Install
+    cd ~/.vim/bundle
+    git clone https://github.com/scrooloose/syntastic.git
+
+
+
+
+
+
+
+### surround
+https://github.com/tpope/vim-surround
+
+Everything for sorroundings: brackets, parantheses, tags
+
+#### Install
+    cd ~/.vim/bundle
+    git clone git://github.com/tpope/vim-surround.git
+
 
 
 
