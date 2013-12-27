@@ -163,6 +163,10 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 
 
+## Other Stuff
+Use Caps-Lock key as escape with PCKeyboardHack.http://tekezo.github.io/pqrs.org/
+
+Description here: http://superuser.com/questions/310008/how-can-i-remap-the-caps-lock-key-in-mac-os-x-lion 
 
 
 
