@@ -164,10 +164,15 @@ Full path fuzzy file, buffer, mru, tag, ... finder for Vim.
 
 
 ## Other Stuff
+
+### Caps-Lock as Escape key
 Use Caps-Lock key as escape with PCKeyboardHack.http://tekezo.github.io/pqrs.org/
 
-Description here: http://superuser.com/questions/310008/how-can-i-remap-the-caps-lock-key-in-mac-os-x-lion 
+Description here: http://stackoverflow.com/questions/127591/using-caps-lock-as-esc-in-mac-os-x
 
 
+### Better icon
+
+Nice icon replacement: http://www.imeos.com/blog/2013/01/04/macvim-replacement-icon/
 
 
