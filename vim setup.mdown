@@ -163,7 +163,7 @@ https://github.com/scrooloose/syntastic
 
 Syntax checking with advanced error displaying
 
-####Install
+#### Install
     cd ~/.vim/bundle
     git clone https://github.com/scrooloose/syntastic.git
 
@@ -184,6 +184,23 @@ Everything for sorroundings: brackets, parantheses, tags
 
 
 
+
+### Zen Coding / Emmet
+https://github.com/mattn/emmet-vim/
+Zen Coding like in Tincta Pro.
+
+#### Install
+cd ~/.vim/bundle
+git clone https://github.com/mattn/emmet-vim.git
+
+#### VimRC
+" emmet / zen coding remapping
+" factory default is <C-Y>, but that does not work
+let g:user_emmet_leader_key='<C-Z>'
+
+#### Usage
+Usage is a bit strange:
+Type zen shortcut like 'div' or 'html:5' then ctrl+z and IMMEDIATELY , (comma key).
 
 
 

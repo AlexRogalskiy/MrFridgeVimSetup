@@ -71,3 +71,8 @@ set encoding=utf8
 "NerdTree setup
 "always show bookmarks
 let NERDTreeShowBookmarks=1
+
+
+" emmet / zen coding remapping
+let g:user_emmet_leader_key='<C-Z>'
+
