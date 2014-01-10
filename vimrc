@@ -18,6 +18,7 @@ set guifont=Source_Code_Pro:h13
 "Highlight search
 set hlsearch
 set ignorecase
+nnoremap <esc> :noh<return><esc>
 
 "Set up tabbing
 set expandtab
