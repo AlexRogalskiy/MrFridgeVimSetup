@@ -33,7 +33,7 @@ set ignorecase
 set hlsearch
 
 " switch of search highlight
-map <leader><cr> :noh<cr>
+nnoremap <esc> :noh<return><esc>
 
 " Makes search act like search in modern browsers
 set incsearch
