@@ -76,3 +76,12 @@ let NERDTreeShowBookmarks=1
 " emmet / zen coding remapping
 let g:user_emmet_leader_key='<C-Z>'
 
+" set easyTags update time to 10s
+let g:easytags_updatetime_min=10000
+let g:easytags_updatetime_warn=0
+
+
+" File type handling
+au BufNewFile,BufRead *.ejs set filetype=html
+
+
