@@ -204,6 +204,16 @@ Type zen shortcut like 'div' or 'html:5' then ctrl+z and IMMEDIATELY , (comma ke
 
 
 
+### DelimtMate / Auto Brackets
+https://github.com/Raimondi/delimitMate.git
+Automatic bracket completion. No setup required but everything can be config'ed
+
+#### Install
+cd ~/.vim/bundle
+git clone https://github.com/Raimondi/delimitMate.git
+
+
+
 ## Other Stuff
 
 ### Caps-Lock as Escape key
