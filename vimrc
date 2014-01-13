@@ -42,6 +42,8 @@ set incsearch
 set showmatch
 " How many tenths of a second to blink when matching brackets
 set mat=2
+" Find < and > when searching matching braces
+set matchpairs+=<:>
 
 " No annoying sound on errors
 set noerrorbells
